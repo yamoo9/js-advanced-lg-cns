@@ -3,9 +3,9 @@
     
     /* HTML --------------------------------------------------------------------- */
     
-    // "HTMLHint.vscode-htmlhint",
-    // "formulahendry.auto-close-tag",
-    // "formulahendry.auto-rename-tag",
+    "HTMLHint.vscode-htmlhint",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
     // "javad-ghased.yourlorem",
     
     /* CSS ---------------------------------------------------------------------- */
@@ -33,9 +33,9 @@
 
     /* JavaScript --------------------------------------------------------------- */
     
-    // "meganrogge.template-string-converter",
-    // "NuclleaR.vscode-extension-auto-import",
-    // "Tobermory.es6-string-html",
+    "meganrogge.template-string-converter",
+    "NuclleaR.vscode-extension-auto-import",
+    "Tobermory.es6-string-html",
 
     /* TypeScript --------------------------------------------------------------- */
 
@@ -45,9 +45,9 @@
     
     /* Node.js ------------------------------------------------------------------ */
     
-    // "chrisbibby.hide-node-modules",
-    // "jasonnutter.search-node-modules",
-    // "mikestead.dotenv",
+    "chrisbibby.hide-node-modules",
+    "jasonnutter.search-node-modules",
+    "mikestead.dotenv",
     
     /* React -------------------------------------------------------------------- */
     
@@ -68,6 +68,7 @@
     /* Test --------------------------------------------------------------------- */
     
     // "Orta.vscode-jest",
+    // "ZixuanChen.vitest-explorer",
 
     /* SVG ---------------------------------------------------------------------- */
 
@@ -94,15 +95,15 @@
 
     /* Path --------------------------------------------------------------------- */
     
-    // "christian-kohler.npm-intellisense",
-    // "christian-kohler.path-intellisense",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
 
     /* Editor ------------------------------------------------------------------- */
 
     // "brittanychiang.halcyon-vscode",
     // "PKief.material-icon-theme",
     // "EditorConfig.EditorConfig",
-    // "sculove.translator",
+    "sculove.translator",
 
     /* Git ---------------------------------------------------------------------- */
 
@@ -117,7 +118,7 @@
 
     /* RESTful Client ----------------------------------------------------------- */
 
-    // "rangav.vscode-thunder-client",
+    "rangav.vscode-thunder-client",
 
   ]
 }
