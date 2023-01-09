@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Localhost：Chrome 실행",
+      "url": "http://localhost:6006",
+      "webRoot": "${workspaceFolder}",
+      "cwd": "${workspaceFolder}",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Node.js 테스트",
+      "cwd": "${workspaceFolder}",
+      "program": "${file}",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}
