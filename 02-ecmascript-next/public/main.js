@@ -8,3 +8,5 @@ import { numberWithComma } from './utils/index.js';
 import { currencyKR as currency } from './utils/index.js';
 
 /* 테스트 코드를 작성합니다. ----------------------------------------------------------- */
+
+console.log(currency(80000));
