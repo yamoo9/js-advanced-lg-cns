@@ -1,6 +1,8 @@
 /* 아래 ES5 코드를 ES6 코드로 변경합니다. ------------------------------------------------ */
 
-var state = Object.freeze({
+// DX (ESLint, Prettier, TypeScript)
+
+const state = {
   loading: false,
   error: null,
   data: [
@@ -8,7 +10,10 @@ var state = Object.freeze({
     { id: 'zwecr8kip', title: 'react' },
     { id: 'jdw1vkke1', title: 'gitbook' },
   ],
-});
+};
+
+// immutable state
+Object.freeze(state);
 
 // 객체 속성과 일치하는 변수 선언 후, 속성 값 할당
 var loading = state.loading;
