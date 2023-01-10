@@ -5,22 +5,13 @@ const node = {
 };
 
 const styled = (styles, node) => {
-  node.style.cssText = styles.reduce(
-    (prevStyle, nextStyle) =>
-      (prevStyle + nextStyle.trim()).replace(/\s+/g, ''),
-    ''
-  );
-  return node;
+  return null;
 };
 
-const $styled = (node) => (styles) => {
-  node.style.cssText = styles.reduce(
-    (prevStyle, nextStyle) =>
-      (prevStyle + nextStyle.trim()).replace(/\s+/g, ''),
-    ''
-  );
-  return node;
-};
+// curring function
+const $styled = () => {
+  return null;
+}
 
 /* 테스트 코드를 작성합니다. ----------------------------------------------------------- */
 
