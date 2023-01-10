@@ -5,9 +5,13 @@
   "description": "ECMAScript NEXT 학습합니다! 😃",
   "scripts": {
     "start": "live-server public --host=localhost --port=3000",
-    "dev": "npm start -- --no-browser"
+    "dev": "npm start -- --no-browser",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "devDependencies": {
+    "@types/jest": "29.2.5",
+    "jest": "29.3.1",
     "live-server": "1.2.2"
   }
 }
