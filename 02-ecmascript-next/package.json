@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "learn-ecmascript-next",
+  "version": "0.0.1",
+  "description": "ECMAScript NEXT 학습합니다! 😃",
+  "scripts": {
+    "start": "live-server public --host=localhost --port=3000",
+    "dev": "npm start -- --no-browser"
+  },
+  "devDependencies": {
+    "live-server": "1.2.2"
+  }
+}
