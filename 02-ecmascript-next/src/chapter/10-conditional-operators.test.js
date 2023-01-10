@@ -21,17 +21,22 @@ const ellipsisText = (text, limit = 100) => {
 let desc = `
   JavaScript는 문 보다, 식을 사용해 조건 처리하는 경우가 잦습니다. 
   자주 사용되는 조건 식에 대해 정리합니다.
-`.trim();
+`
+  .trim()
+  .replace(/\n\s+/g, '');
 
 // 테스트 코드를 작성합니다.
+/* globals describe, test, expect */
 
 describe('defaultArg, ellipsisText 테스트', () => {
   test('defaultArg(20, 9) 값은 9가 아닙니다.', () => {
-    // 테스트 코드
+    expect(defaultArg(20, 9)).not.toBe(9);
   });
 
   test('ellipsisText(desc, 22) 반환 값의 글자 수는 `${desc.slice(0,22).trim()}...`.length 입니다.', () => {
-    // 테스트 코드
+    expect(ellipsisText(desc, 2)).toHaveLength(
+      `${desc.slice(0, 22).trim()}...`.length
+    );
   });
 });
 
@@ -49,18 +54,5 @@ const company = Object.freeze({
     return Object.values(company.location);
   },
 });
-
-let companyName, companyLat;
-
-/* 테스트 코드를 작성하세요. ----------------------------------------------------------- */
-
-companyName = company.name;
-console.log(companyName);
-
-// companyLat = company.location.lat
-
-// if ('getLocation' in company && typeof company.getLocation === 'function') {
-//   company.getLocation();
-// }
 
 company.getLocation?.();
