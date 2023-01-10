@@ -90,5 +90,32 @@
   "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
   "typescript.inlayHints.variableTypes.enabled": true,
   "typescript.suggest.autoImports": true,
-  "typescript.suggest.paths": true
+  "typescript.suggest.paths": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment"
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "#baba61"
+        }
+      },
+      {
+        "scope": [
+          "entity.other.inherited-class",
+          "entity.other.attribute-name",
+          "variable.parameter",
+          "variable.language",
+          "storage.modifier",
+          "storage.type"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ],
+    "comments": ""
+  }
 }
