@@ -1,6 +1,6 @@
 ###### LG CNS
 
-# ECMAScript NEXT
+# 학습 진행
 
 모던 JavaScript 프로그래밍을 위한 새로운 문법 중심으로 학습합니다.
 
@@ -22,6 +22,26 @@ JavaScript 학습에 도움이 되는 E-Book을 소개합니다.
 
 [Jest](https://jestjs.io/)는 [Meta](https://about.meta.com/ko/)의 오픈 소스로 사용하기 쉬운 JavaScript 테스트 프레임워크입니다. → [시작하기](https://jestjs.io/docs/getting-started)
 
+## Babel
 
+[Babel](https://babeljs.io/)은 JavaScript 컴파일러(Compiler)입니다.
 
-[![](https://user-images.githubusercontent.com/1850554/211420530-7f700d8f-2b33-454c-9c74-e8608726716f.png)](https://2021.stateofjs.com/en-US/libraries/testing/)
+## TypeScript
+
+[TypeScript](https://typescriptlang.org/)는 ECMAScript(JavaScript)에 Types 시스템을 확장한 프로그래밍 언어입니다.
+
+## Webpack
+
+[Webpack](https://webpack.kr/)은 모던 JavaScript 애플리케이션을 위한 정적 모듈 번들러 입니다.
+
+## Vite
+
+[Vite](https://vitejs-kr.github.io/)는 빠르고 간결한 모던 웹 프로젝트 개발 경험에 초점을 맞춰 탄생한 빌드 도구입니다.
+
+## React
+
+[React](https://reactjs.org/)는 사용자 인터페이스 구축을 위한 JavaScript 라이브러리입니다.
+
+## Vue
+
+[Vue](https://vuejs.org/)는 사용자 인터페이스 구축을 위한 점진적인 프레임워크입니다.
