@@ -94,23 +94,14 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": [
-          "comment"
-        ],
+        "scope": ["comment"],
         "settings": {
           "fontStyle": "",
           "foreground": "#baba61"
         }
       },
       {
-        "scope": [
-          "entity.other.inherited-class",
-          "entity.other.attribute-name",
-          "variable.parameter",
-          "variable.language",
-          "storage.modifier",
-          "storage.type"
-        ],
+        "scope": ["entity.other.inherited-class", "entity.other.attribute-name", "variable.parameter", "variable.language", "storage.modifier", "storage.type"],
         "settings": {
           "fontStyle": ""
         }
