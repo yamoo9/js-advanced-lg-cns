@@ -1,16 +1,15 @@
+import React from '../libs/react.js';
+
 // React World
 // Component Types
 // - Function
 
-export default function Headline() {
+export default function Headline({ colorful }) {
   return (
     <h1
       className="headline"
-      onMouseEnter={(e) => {
-        e.target.style.color = 'skyblue';
-      }}
-      onMouseLeave={(e) => {
-        e.target.removeAttribute('style');
+      style={{
+        color: colorful ? 'skyblue' : null,
       }}
     >
       안녕! React + Babel 😃

@@ -1,3 +1,5 @@
-export function SubjectItem(props) {
-  return <li>{props.children}</li>;
-}
+export const SubjectItem = ({ subject: { href, content } }) => (
+  <li>
+    <a href={href}>{content}</a>
+  </li>
+);
