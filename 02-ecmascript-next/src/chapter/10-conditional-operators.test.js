@@ -26,7 +26,6 @@ let desc = `
   .replace(/\n\s+/g, '');
 
 // 테스트 코드를 작성합니다.
-/* globals describe, test, expect */
 
 describe('defaultArg, ellipsisText 테스트', () => {
   test('defaultArg(20, 9) 값은 9가 아닙니다.', () => {

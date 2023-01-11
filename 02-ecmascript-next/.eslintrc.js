@@ -11,12 +11,17 @@ module.exports = {
     },
   },
   extends: ['eslint:recommended', 'plugin:jest/recommended'],
+  // parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
+    // requireConfigFile: false,
+    // babelOptions: {
+    //   plugins: ['@babel/plugin-syntax-import-assertions'],
+    // },
   },
   rules: {
     'no-unused-vars': 'warn',
-    'jest/no-commented-out-tests': 'off'
+    'jest/no-commented-out-tests': 'off',
   },
 };
