@@ -1,9 +1,3 @@
-import React from '../libs/react.js';
-
-// React World
-// Component Types
-// - Function
-
 export default function Headline({ colorful }) {
   return (
     <h1

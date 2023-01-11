@@ -1,23 +1,26 @@
 {
   "private": true,
   "scripts": {
-    "dev": "run-p watch serve:dev",
-    "serve:dev": "npm run preview -- --no-browser",
-    "preview": "live-server public --host=localhost --port=3000",
-    "compile": "babel src --out-dir public/scripts",
-    "watch": "npm run compile -- --watch",
-    "prod": "babel src --out-dir public/minified --minified",
+    "start": "npm run serve -- --open",
+    "dev": "npm run serve",
     "bundle": "webpack --node-env development -c ./webpack.config.js",
+    "serve": "webpack serve --node-env development -c ./webpack.config.js",
     "build": "webpack build --node-env production -c ./webpack.config.js"
   },
   "devDependencies": {
-    "@babel/cli": "7.20.7",
     "@babel/core": "7.20.12",
     "@babel/preset-env": "7.20.2",
     "@babel/preset-react": "7.18.6",
-    "live-server": "1.2.2",
+    "babel-loader": "9.1.2",
+    "css-loader": "6.7.3",
     "npm-run-all": "4.1.5",
+    "style-loader": "3.3.1",
     "webpack": "5.75.0",
-    "webpack-cli": "5.0.1"
+    "webpack-cli": "5.0.1",
+    "webpack-dev-server": "4.11.1"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }

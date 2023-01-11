@@ -1,4 +1,4 @@
-import { SubjectItem } from './SubjectItem.jsx';
+import { SubjectItem } from './SubjectItem';
 
 export default function SubjectList({ subjects }) {
   return (

@@ -1,0 +1,28 @@
+:root {
+  --yellow-50: #fcf7eb;
+  --yellow-100: #fff5e0;
+  --yellow-200: #ffebc2;
+  --yellow-300: #ffe0a3;
+  --yellow-400: #ffd685;
+  --yellow-500: #ffcc66;
+  --yellow-600: #cca352;
+  --yellow-700: #997a3d;
+  --yellow-800: #665229;
+  --yellow-900: #332914;
+  --white: #fff;
+  --black: #000;
+}
+
+body {
+  margin: 0;
+  background: var(--yellow-500);
+  color: var(--black);
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}

@@ -1,8 +1,8 @@
-import React from './libs/react.js';
-import Headline from './components/Headline.jsx';
-import SubjectList from './components/SubjectList.jsx';
+import { Component } from 'react';
+import Headline from './components/Headline';
+import SubjectList from './components/SubjectList';
 
-class App extends React.Component {
+export default class App extends Component {
   state = {
     subjects: [
       { id: 'subject-1', content: 'ECMAScript', href: 'https://babeljs.io' },
@@ -28,7 +28,7 @@ class App extends React.Component {
     const { isHeadlineColorful, subjects } = this.state;
 
     return (
-      <div className="App">
+      <div className="App container">
         <Headline colorful={isHeadlineColorful} />
         <button type="button" onClick={this.handleChangeHeadlineColor}>
           {isHeadlineColorful ? '언컬러풀 헤드라인' : '컬러풀 헤드라인'}
@@ -38,5 +38,3 @@ class App extends React.Component {
     );
   }
 }
-
-export default App;
