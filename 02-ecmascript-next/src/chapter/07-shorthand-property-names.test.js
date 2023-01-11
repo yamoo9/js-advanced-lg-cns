@@ -1,5 +1,3 @@
-/* globals test, expect */
-
 // 일반 함수 식 참조
 const show = function () {
   return `${this.name} 보다.`;
@@ -33,11 +31,11 @@ const euid = {
 
 // 객체의 메서드로 화살표 함수를 사용하면 this는 undefined이다.
 
-// test('객체의 메서드로 화살표 함수를 사용하면 this는 undefined이다.', () => {
-//   expect(euid.show()).toMatch(/이듬 보다/);
-//   expect(euid.look()).toMatch(/이듬 지켜보다/);
-//   // expect(euid.watch()).toMatch(/이듬 관찰하다/);
-// });
+test('객체의 메서드로 화살표 함수를 사용하면 this는 undefined이다.', () => {
+  expect(euid.show()).toMatch(/이듬 보다/);
+  expect(euid.look()).toMatch(/이듬 지켜보다/);
+  // expect(euid.watch()).toMatch(/이듬 관찰하다/);
+});
 
 /* ------------------------------------------------------------------------------- */
 

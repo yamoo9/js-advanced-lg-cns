@@ -7,6 +7,8 @@ const defaultArg = (value, initialValue) => {
   return value;
 };
 
+console.log(typeof defaultArg); // function
+
 const truncateText = (text, limit = 60) => {
   // limit = defaultArg(limit, 60);
   // let a = false || '' || 0 || null || undefined || 100;

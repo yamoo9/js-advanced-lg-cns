@@ -40,8 +40,6 @@ function joinLine(string) {
 /* 테스트 코드를 작성합니다. ----------------------------------------------------------- */
 // renderCard 렌더 유틸리티
 
-/* globals describe, test, expect */
-
 describe('renderCard 유틸리티', () => {
   const cardInfo = {
     title: 'React 펀드멘탈',

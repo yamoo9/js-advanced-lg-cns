@@ -54,8 +54,6 @@ const numberWithComma = (n) => {
  * 4. 출판 (고도화, 안정성이 확보된 기능, 컴포넌트 등등)
  */
 
-/* globals describe, test, expect */
-
 describe('fibonacci 유틸리티', () => {
   // fibonacci(6)    →  8
   test('fibonacci(6) = 8', () => {
