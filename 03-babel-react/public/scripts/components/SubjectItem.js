@@ -1,4 +1,3 @@
-export function SubjectItem() {
-  let subject = 'anything';
-  return React.createElement("li", null, subject);
+export function SubjectItem(props) {
+  return React.createElement("li", null, props.children);
 }

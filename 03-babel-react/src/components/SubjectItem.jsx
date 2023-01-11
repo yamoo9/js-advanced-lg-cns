@@ -1,4 +1,3 @@
-export function SubjectItem() {
-  let subject = 'anything';
-  return <li>{subject}</li>;
+export function SubjectItem(props) {
+  return <li>{props.children}</li>;
 }
